@@ -10,7 +10,18 @@
 </p>
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#中文">中文</a>
+  <a href="https://github.com/jinming1345/LogLens/releases/latest"><img src="https://img.shields.io/github/v/release/jinming1345/LogLens?style=flat-square&color=blue" alt="Latest Release" /></a>
+  <a href="https://github.com/jinming1345/LogLens/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/jinming1345/LogLens/ci.yml?branch=main&style=flat-square&label=CI" alt="CI Status" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/jinming1345/LogLens?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/jinming1345/LogLens/releases"><img src="https://img.shields.io/github/downloads/jinming1345/LogLens/total?style=flat-square&color=green" alt="Downloads" /></a>
+  <img src="https://img.shields.io/badge/platform-Windows%20|%20Linux%20|%20macOS-lightgrey?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/Tauri-2.0-blue?style=flat-square&logo=tauri" alt="Tauri 2" />
+  <img src="https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react" alt="React 19" />
+  <img src="https://img.shields.io/badge/Rust-🦀-orange?style=flat-square" alt="Rust" />
+</p>
+
+<p align="center">
+  <a href="#english">English</a> · <a href="#中文">中文</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="CONTRIBUTING.md">Contributing</a>
 </p>
 
 ---

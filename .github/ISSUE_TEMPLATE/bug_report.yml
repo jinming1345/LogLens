@@ -1,0 +1,74 @@
+name: Bug Report / Bug 报告
+description: Report a bug or unexpected behavior / 报告 Bug 或异常行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill out the form below.
+        感谢报告！请填写以下表格。
+
+  - type: input
+    id: version
+    attributes:
+      label: LogLens Version / 版本
+      description: Which version are you using? / 你使用的是哪个版本？
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System / 操作系统
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu / Debian
+        - Fedora / RHEL
+        - Arch Linux
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description / Bug 描述
+      description: What happened? / 发生了什么？
+      placeholder: Describe the bug clearly / 请清楚描述 Bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 复现步骤
+      description: How can we reproduce this? / 如何复现？
+      placeholder: |
+        1. Open LogLens
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior / 预期行为
+      description: What should have happened? / 应该发生什么？
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / 截图
+      description: If applicable, add screenshots / 如有必要，请添加截图
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional Context / 附加信息
+      description: Any other context (log samples, error messages, etc.) / 其他信息
