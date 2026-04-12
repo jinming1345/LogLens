@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="LogLens">
+  <title>LogLens</title>
+  <rect x="3.25" y="3.25" width="25.5" height="25.5" rx="5.2" fill="#ffffff" stroke="#6366f1" stroke-width="0.75"/>
+  <circle cx="14.1" cy="14.1" r="4.65" fill="none" stroke="#4f46e5" stroke-width="1.35"/>
+  <line x1="17.2" y1="17.2" x2="22.4" y2="22.4" stroke="#4f46e5" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
