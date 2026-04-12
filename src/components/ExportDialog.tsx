@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 import { exportResults, type ExportLine } from "@/lib/tauri-api";
 import { save } from "@tauri-apps/plugin-dialog";
 import { useState } from "react";

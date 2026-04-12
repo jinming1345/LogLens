@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 //! Heuristic log format detection from sample lines.
 
 use regex::Regex;

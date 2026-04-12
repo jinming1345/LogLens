@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/jinming1345/LogLens/releases/latest"><img src="https://img.shields.io/github/v/release/jinming1345/LogLens?style=flat-square&color=blue" alt="Latest Release" /></a>
   <a href="https://github.com/jinming1345/LogLens/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/jinming1345/LogLens/ci.yml?branch=main&style=flat-square&label=CI" alt="CI Status" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/jinming1345/LogLens?style=flat-square" alt="License" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-red?style=flat-square" alt="License AGPL-3.0" /></a>
   <a href="https://github.com/jinming1345/LogLens/releases"><img src="https://img.shields.io/github/downloads/jinming1345/LogLens/total?style=flat-square&color=green" alt="Downloads" /></a>
   <img src="https://img.shields.io/badge/platform-Windows%20|%20Linux%20|%20macOS-lightgrey?style=flat-square" alt="Platform" />
   <img src="https://img.shields.io/badge/Tauri-2.0-blue?style=flat-square&logo=tauri" alt="Tauri 2" />
@@ -185,7 +185,15 @@ pnpm tauri build
 
 ### License
 
-MIT
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+This means:
+- You can use, modify, and distribute this software freely
+- **Any modified version must also be open-sourced under AGPL-3.0**
+- If you run a modified version as a network service, you must provide the source code to users
+- You must preserve the original copyright notice
+
+See [LICENSE](LICENSE) for the full text.
 
 ---
 
@@ -348,4 +356,12 @@ pnpm tauri build
 
 ### 开源协议
 
-MIT
+本项目基于 **GNU Affero 通用公共许可证 v3.0（AGPL-3.0）** 开源。
+
+这意味着：
+- 你可以自由使用、修改和分发本软件
+- **任何修改版本必须同样以 AGPL-3.0 开源**
+- 如果你将修改版本作为网络服务运行，必须向用户提供源代码
+- 必须保留原始版权声明
+
+完整协议请参见 [LICENSE](LICENSE)。

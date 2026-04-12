@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 import { cn } from "@/lib/utils";
 import { useBookmarkStore } from "@/stores/useBookmarkStore";
 import {
@@ -143,6 +147,72 @@ export function SettingsPanel() {
           <li>Ctrl+F — {t("settings.shortcutSearch")}</li>
           <li>Ctrl+, — {t("settings.shortcutSettings")}</li>
         </ul>
+      </section>
+
+      <section className="mt-8 space-y-3 border-t border-border pt-6">
+        <h3 className="text-sm font-medium">{t("about.title")}</h3>
+        <div className="rounded-lg border border-border bg-card/50 p-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-xl font-bold text-primary">
+              LL
+            </div>
+            <div>
+              <div className="text-base font-semibold">LogLens</div>
+              <div className="text-xs text-muted-foreground">Log View Pro Max</div>
+            </div>
+          </div>
+
+          <div className="mt-4 space-y-2 text-xs text-muted-foreground">
+            <div className="flex justify-between">
+              <span>{t("about.version")}</span>
+              <span className="font-mono">1.0.0</span>
+            </div>
+            <div className="flex justify-between">
+              <span>{t("about.author")}</span>
+              <span>jinming1345</span>
+            </div>
+            <div className="flex justify-between">
+              <span>{t("about.license")}</span>
+              <span>AGPL-3.0</span>
+            </div>
+            <div className="flex justify-between">
+              <span>{t("about.techStack")}</span>
+              <span>Tauri 2 + React 19 + Rust</span>
+            </div>
+          </div>
+
+          <div className="mt-4 rounded-md bg-muted/50 p-3 text-[11px] text-muted-foreground">
+            <p>Copyright &copy; 2026 jinming1345. All rights reserved.</p>
+            <p className="mt-1">{t("about.licenseNote")}</p>
+          </div>
+
+          <div className="mt-3 flex gap-2">
+            <a
+              href="https://github.com/jinming1345/LogLens"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border border-border px-3 py-1.5 text-xs hover:bg-muted"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://github.com/jinming1345/LogLens/releases"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border border-border px-3 py-1.5 text-xs hover:bg-muted"
+            >
+              {t("about.releases")}
+            </a>
+            <a
+              href="https://github.com/jinming1345/LogLens/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border border-border px-3 py-1.5 text-xs hover:bg-muted"
+            >
+              {t("about.reportIssue")}
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   );

@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "./en.json";

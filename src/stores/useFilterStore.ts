@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import {

@@ -195,6 +195,16 @@
     "confirm": "开始导出",
     "cancel": "取消"
   },
+  "about": {
+    "title": "关于 LogLens",
+    "version": "版本",
+    "author": "作者",
+    "license": "许可证",
+    "techStack": "技术栈",
+    "licenseNote": "本软件基于 AGPL-3.0 协议开源。任何修改版本必须同样开源并保留原始版权声明。",
+    "releases": "版本发布",
+    "reportIssue": "反馈问题"
+  },
   "common": {
     "loading": "加载中…",
     "error": "出错了",

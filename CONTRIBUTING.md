@@ -109,6 +109,6 @@ Please be respectful and constructive in all interactions. 请在所有互动中
 
 ## License / 许可
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing, you agree that your contributions will be licensed under the [AGPL-3.0 License](LICENSE).
 
-通过贡献代码，你同意你的贡献将在 [MIT 许可证](LICENSE) 下发布。
+通过贡献代码，你同意你的贡献将在 [AGPL-3.0 许可证](LICENSE) 下发布。

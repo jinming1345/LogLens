@@ -195,6 +195,16 @@
     "confirm": "Export",
     "cancel": "Cancel"
   },
+  "about": {
+    "title": "About LogLens",
+    "version": "Version",
+    "author": "Author",
+    "license": "License",
+    "techStack": "Tech Stack",
+    "licenseNote": "This software is licensed under AGPL-3.0. Any modified version must also be open-sourced and preserve the original copyright notice.",
+    "releases": "Releases",
+    "reportIssue": "Report Issue"
+  },
   "common": {
     "loading": "Loading…",
     "error": "Something went wrong",

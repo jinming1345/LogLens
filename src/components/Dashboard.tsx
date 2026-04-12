@@ -1,3 +1,7 @@
+// Copyright (c) 2026 jinming1345
+// Licensed under AGPL-3.0. See LICENSE file for details.
+// https://github.com/jinming1345/LogLens
+
 import { getLogStats, type LogStats } from "@/lib/tauri-api";
 import { useLogStore } from "@/stores/useLogStore";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
