@@ -9,6 +9,9 @@ edition = "2021"
 name = "loglens_lib"
 crate-type = ["lib", "cdylib", "staticlib"]
 
+[features]
+custom-protocol = ["tauri/custom-protocol"]
+
 [build-dependencies]
 tauri-build = { version = "1.5.6", features = [] }
 
