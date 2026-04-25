@@ -3,7 +3,7 @@
 // https://github.com/jinming1345/LogLens
 
 import { exportResults, type ExportLine } from "@/lib/tauri-api";
-import { save } from "@tauri-apps/plugin-dialog";
+import { save } from "@tauri-apps/api/dialog";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 

@@ -15,7 +15,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { open } from "@tauri-apps/plugin-dialog";
+import { open } from "@tauri-apps/api/dialog";
 import type { ReactNode } from "react";
 
 type View = "viewer" | "dashboard" | "settings";

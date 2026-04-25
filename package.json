@@ -1,7 +1,7 @@
 {
   "name": "loglens",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +10,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": "^2.5.0",
-    "@tauri-apps/plugin-dialog": "^2.2.0",
-    "@tauri-apps/plugin-fs": "^2.2.0",
+    "@tauri-apps/api": "^1.6.0",
     "@tanstack/react-virtual": "^3.13.0",
     "i18next": "^25.1.0",
     "react": "^19.1.0",
@@ -25,7 +23,7 @@
     "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.5.0",
+    "@tauri-apps/cli": "^1.6.3",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "@vitejs/plugin-react": "^4.4.1",

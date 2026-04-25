@@ -15,7 +15,7 @@ use std::sync::mpsc::{channel, RecvTimeoutError};
 use std::sync::{Arc, OnceLock};
 use std::thread::JoinHandle;
 use std::time::Duration;
-use tauri::Emitter;
+use tauri::Manager;
 
 #[derive(Serialize, Clone)]
 struct TailPayload {
@@ -136,7 +136,7 @@ fn run_tail_loop(
                 file_id: file_id.clone(),
                 lines: complete_lines,
             };
-            let _ = app.emit("tail-update", &payload);
+            let _ = app.emit_all("tail-update", &payload);
         }
     }
 

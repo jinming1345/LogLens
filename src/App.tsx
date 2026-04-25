@@ -13,8 +13,8 @@ import i18n from "@/i18n";
 import { useFilterStore } from "@/stores/useFilterStore";
 import { useLogStore } from "@/stores/useLogStore";
 import { useSettingsStore } from "@/stores/useSettingsStore";
-import { getCurrentWebviewWindow } from "@tauri-apps/api/webviewWindow";
-import { open } from "@tauri-apps/plugin-dialog";
+import { open } from "@tauri-apps/api/dialog";
+import { appWindow } from "@tauri-apps/api/window";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -123,11 +123,11 @@ export default function App() {
 
   useEffect(() => {
     let unlisten: (() => void) | undefined;
-    void getCurrentWebviewWindow()
-      .onDragDropEvent((event) => {
-        if (event.payload.type === "enter" || event.payload.type === "over") {
+    void appWindow
+      .onFileDropEvent((event) => {
+        if (event.payload.type === "hover") {
           setDropHint(true);
-        } else if (event.payload.type === "leave") {
+        } else if (event.payload.type === "cancel") {
           setDropHint(false);
         } else if (event.payload.type === "drop") {
           setDropHint(false);
